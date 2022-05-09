@@ -1,0 +1,1529 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Light.woff2') format('woff2'),
+        url('../fonts/Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Thin.woff2') format('woff2'),
+        url('../fonts/Roboto-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Travel Journal';
+    src: url('../fonts/TravelJournalRegular.woff2') format('woff2'),
+        url('../fonts/TravelJournalRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Travel Journal';
+    src: url('../fonts/TravelJournalRegular.woff2') format('woff2'),
+        url('../fonts/TravelJournalRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Medium.woff2') format('woff2'),
+        url('../fonts/Raleway-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Light.woff2') format('woff2'),
+        url('../fonts/Raleway-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Bold.woff2') format('woff2'),
+        url('../fonts/Raleway-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Regular.woff2') format('woff2'),
+        url('../fonts/Raleway-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+*{
+	margin:0;padding:0;box-sizing:border-box;font-family: 'Roboto';
+}
+.container{
+	max-width:1261px;
+	margin:0 auto;
+}
+img{
+    max-width:100%;
+}
+.dropdown-menu {
+    text-align: left;
+}
+/*----Header-Section-----*/
+.header-nav ul.navbar-nav li > a {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: rgba(51, 51, 51, 0.75);
+}
+header span.hdr-retrieve {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    color: rgba(51, 51, 51, 0.75);
+}
+.rt-lang span.GBP {
+    font-weight: 400;
+    font-size: 13.82px;
+    line-height: 6.91px;
+    background: #F4F4F9;
+    padding: 15px;
+    border-radius: 6.14px;
+    margin-right: 15px;
+}
+header button.language-drop span.language {
+    color: #333333;
+    font-weight: 400;
+    font-size: 13.82px;
+    line-height: 6.91px;
+    border-radius: 6.14px;
+    margin-right: 10px;
+}
+header button.GBP span.language {
+    margin-right: 0px;
+}
+header button.language-drop {
+    background: #F4F4F9;
+    border: none;
+    border-radius: 6.14px;
+}
+header button.language-drop:hover,header button.language-drop:focus {
+    background: #F4F4F9 !important;
+    box-shadow:none !important;
+}
+header button.language-drop::after {
+    display: none;
+}
+header .admin-user {
+    border-right: 1px solid #333333;
+    padding-right: 15px;
+}
+.user-details span {
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    color: #333333;
+}
+.user-details b {
+    font-size: 14px;
+    line-height: 13px;
+    font-weight: 700;
+}
+
+/*------Header-Section-Completed--------*/
+
+/*--------Top-Banner-Section-Start-------*/
+.flying-input {
+    width: 100%;
+}
+.flight-bg {
+    background: url(../images/homepage-flight-bg.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+    min-height: 700px !important;
+}
+.flight-btn {
+    max-height: 112px;
+    height: inherit;
+}
+.search-input svg.flip-ico {
+    position: absolute !important;
+    bottom: -15px !important;
+    right: 20px !important;
+    left: unset !important;
+    width: 28px !important;
+    height: 28px !important;
+    top: unset !important;
+    z-index: 11;
+}
+.home-pg-form{
+    position:relative;
+    z-index:22;
+}
+.head-before-after,.subhead-before-after{
+    position:relative;
+}
+.home-page-banner .top-banner {
+    position: relative;
+    bottom: 100px;
+    z-index:1;
+}
+.head-before-after::before {
+    position: absolute;
+    content: "";
+    background: #113F6D;
+    width: 71.89px;
+    height: 1.81px;
+    left: 140px;
+    top: 30px;
+}
+.head-before-after::after {
+    position: absolute;
+    content: "";
+    background: #113F6D;
+    width: 71.89px;
+    height: 1.81px;
+    right: 140px;
+    top: 30px;
+}
+.subhead-before-after::before{
+    position: absolute;
+    content: "";
+    background: #113F6D;
+    width: 71.89px;
+    height: 1.81px;
+    left: 260px;
+    top: -40px;
+}
+.subhead-before-after::after{
+    position: absolute;
+    content: "";
+    background: #113F6D;
+    width: 71.89px;
+    height: 1.81px;
+    right: 260px;
+    top: -20px;
+}
+.check-box-row .form-check {
+    padding: 0 20px;
+}
+.home-pg-tabs {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 11px;
+}
+.home-pg-tabs li {
+    background: #C9DBF2;
+    border-radius: 6px;
+}
+.home-pg-tabs .active a {
+    color: black;
+    text-decoration: none;
+}
+.home-pg-tabs li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: flex;
+}
+.home-pg-tabs li:first-child a svg path {
+    fill: #333;
+    width:26px;
+    height:26px;
+}
+.home-pg-tabs.nav a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    color:#333333;
+}
+ul.home-pg-tabs a.active {
+    background: #EC6F23;
+    border-radius:6px;
+    color:#ffffff;
+}
+ul.home-pg-tabs a.active > .home-pg-tabs.nav a{
+    color:#ffffff;
+}
+ul.home-pg-tabs li a {
+    
+    font-weight:700;
+}
+.home-pg-tabs.nav svg {
+    margin-right: 8px;
+}
+/* Form Styling */
+.form-content {
+    padding: 20px 10px;
+    background: #ffffff;
+    margin-top: 16px;
+    border-radius: 11px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.check-box-row {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 0;
+    padding-left: 10px;
+}
+.check-box-row .form-check {
+    padding: 0 15px 10px 0;
+}
+.check-box-row .form-check-label span {
+    padding-left: 10px;
+}
+.form-check-label {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    color:#333333;
+}
+.check-box-row .form-check-input {
+    position: relative;
+    margin-top: 0px;
+    width: 20px;
+    height: 20px;
+    float:left;
+}
+.home-pg-tabs svg {
+    width: 26px;
+    height: 26px;
+}
+.date-input input {
+    min-height: 54px;
+    border-radius: 7px;
+    background: #EFEFEF;
+    font-size: 16px;
+    line-height: 18.78px;
+    padding-left: 15px;
+    color: #333333;
+}
+.section-dropdown button span {
+    font-size: 16px;
+    line-height: 18.78px;
+    padding-left: 10px;
+}
+.section-dropdown select {
+    padding: 26px 14px;
+    border-radius: 7px;
+    background:#EFEFEF;
+}
+input::-webkit-placeholder{
+    color:#333333;
+    font-family: 'Raleway';
+}
+input::-moz-placeholder{
+    color:#333333;
+    font-family: 'Raleway';
+}
+input::-ms-placeholder{
+    color:#333333;
+    font-family: 'Raleway';
+}
+input::placeholder{
+    color:#333333;
+    font-family: 'Raleway';
+}
+.section-dropdown .dropdown button::after {
+    right: 10px;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    font-size: 24px;
+}
+.date-input svg {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 20px;
+}
+.search-input {
+    float: left;
+    margin-top: -17px;
+    width:100%;
+}
+.date-input {
+    position: relative;
+    width:100%;
+}
+.section-dropdown {
+    float: left;
+    width:100%;
+}
+.section-dropdown button {
+    width: 100%;
+    padding: 0 20px;
+}
+.form-btn {
+    background: #5DB441;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.form-btn  .button a {
+    color: white;
+    font-size: 13px;
+    line-height:17px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.form-btn span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-heading {
+    font-size: 44.06px;
+    line-height: 51.64px;
+    color: #333333;
+    font-weight: 500;
+    max-width: 45%;
+    margin: 0 auto;
+    
+}
+.top-banner img {
+    width: 100%;
+}
+.check-box-row .form-check input {
+    position: relative;
+}
+.home-page-banner {
+    background: #f5fbff;
+    padding: 60px 0 0 0;
+    position:relative;
+}
+.home-pg-tabs li a.active svg > path {
+    fill: #ffffff;
+}
+.banner-heading {
+    position:relative;
+}
+.check-box-row .form-check-label {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.section-dropdown button,.section-dropdown button:hover,.section-dropdown button:focus {
+    background: #efefef;
+    border: 1px solid #ced4da;
+    color: #000;
+    text-align: left;
+    min-height: 54px;
+    border-radius: 7px;
+}
+.flying-input .search-input {
+    position:relative;
+}
+.flying-input .search-input svg {
+    position: relative;
+    top: 35px;
+    left: 15px;
+    width: 17px;
+    height: 17px;
+    text-align: left;
+    float: left;
+}
+.search-input input {
+    padding: 26px 0 26px 39px;
+    border-radius: 7px;
+    background: #EFEFEF;
+    font-size: 16px;
+    line-height: 18.78px;
+}
+.check-box-row .form-check input::before {
+    background-color: #333333;
+    border-radius: 5px;
+    width: 16.67px;
+    height: 16.67px;
+}
+.check-box-row .form-check input::after {
+    border: 2px solid #333333;
+}
+.flight-checkbox input {
+    position: relative;
+}
+.flight-checkbox input::before {
+    background-color: #333333;
+    border-radius: 5px;
+    width: 16.67px;
+    height: 16.67px;
+}
+button.btn.btn-primary.dropdown-toggle {
+    background: #EFEFEF;
+    color: #333333;
+    border-color:#ced4da;
+}
+/*--------Top-Banner-Section-Completed-------*/
+
+
+
+/*-----Traveling-Start--------*/
+.travelling-banner{
+    background-image: url(../images/travel-bg.svg);
+    height: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size:contain;
+}
+
+.travelling-heading h2{
+  font-size: 24.82px;
+  font-weight: 500;  
+}
+
+.travelling-heading p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.9px;
+}
+.travelling-suitcase{
+    padding-top: 26px;
+}
+.travelling-heading {
+    margin-top: 0;
+    max-width: 45%;
+}
+/*-----Traveling-Completed--------*/
+
+/*-------Holiday-Destination-Start------*/
+.home-page-banner-map {
+    position: relative;
+    background: url("../images/home-page-mapp.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.hol-destination-first {
+    position: relative;
+}
+.hol-desination-text {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    padding: 0 25px;
+    width:100%;
+    text-align:left;
+}
+.col-heading {
+    font-size: 27.94px;
+    line-height: 32.74px;
+    font-weight: 900;
+    color: #ffffff;
+}
+.col-subheading {
+    font-size: 12.86px;
+    line-height: 16.65px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.hol-discription {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hol-discription a {
+    color: white;
+    text-decoration: none;
+    background: #0000008f;
+    padding: 7px 15px;
+    border-radius: 50px;
+    border: 1px solid white;
+    margin-bottom: 30px;
+    font-size: 12.42px;
+    line-height: 14.55px;
+    font-weight: 900;
+}
+.font-400{
+    font-weight:400 !important;
+}
+.hol-destination-img1 img {
+    width: 100%;
+}
+.color-75{
+    opacity:0.75;
+}
+.hol-desination-text .max-width {
+    max-width: 80%;
+}
+/*-------Holiday-Destination-Completed------*/
+
+/*--------Popular-Tours-Start--------*/
+.Popular-tour-section .yo-slide .slick-slide {
+    padding: 0 7px;
+}
+.Popular-tour-section .yo-slide .slick-slide svg {
+    width: 18px;
+    height: 18px;
+}
+.tour-first-img {
+    position: relative;
+}
+.tour-first-img h2 {
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    color: white;
+    font-size: 28.86px;
+    font-weight: 900;
+}
+.from-content h6 {
+    font-size: 11.64px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 0;
+    opacity:50%;
+}
+.Slide-btn {
+    text-align: center;
+    background: #113F6D;
+    max-width: 100%;
+    padding: 8px 10px;
+    border-radius: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Slide-btn a {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.from-content h3 {
+    font-size: 15.28px;
+    color: #40C84F;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.from-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider-content {
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 0 0 11px 11px;
+    box-shadow: 0 0 10px #e7e7e7;
+    margin-bottom: 5px;
+}
+.tour-first-img img {
+    width: 100%;
+}
+.slick-prev:before {
+    content: '' !important;
+    background-image: url(../images/arrow-left.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity:1;
+    padding:0 12px;
+}
+.slick-next:before {
+    content: '' !important;
+    background-image: url(../images/arrow-right.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity:1;
+    padding:0 12px;
+}
+.slick-next:before, .slick-prev:before{
+    font-size:50px !important;
+    opacity:1 !important;
+}
+.slick-prev {
+    left: -60px;
+    top: 35%;
+}
+.slick-next {
+    top: 35%;
+}
+
+/*--------Popular-Tours-Start--------*/
+
+/*------Why-Choose-Us-Start----*/
+
+.section-heading{
+    font-weight: 700;
+    font-size: 22px;
+    line-height:25.78px;
+    color:#333333;
+}
+
+.travel-heading {
+    font-size: 27px;
+    line-height: 29.78px;
+    font-family: "Travel Journal";
+    font-weight: 400;
+    color: #333333;
+}
+.section-subheading {
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 400;
+}
+/*------Why-Choose-Us-Completed----*/
+
+/*--------Destination-Section-start--------*/
+
+.images {
+    background-image: url(../images/5.png);
+    background-size: cover;
+    height: 163px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+
+h3.imageheading {
+    font-weight: 700;
+    color: #fff;
+    padding: 0 0 4px;
+}
+
+.planeSection {
+    display: flex;
+    margin: 0px 12px;
+    background: #E7E7E7;
+    border-radius: 11px;
+    padding: 8px 0;
+    justify-content: space-around;
+}
+
+.imgSection {
+    display: flex;
+    border-radius: 12px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.planeText h6 {
+    margin: 0;
+}
+
+.planeText p {
+    color: #777;
+}
+
+.cardSection {
+    background: #C9DBF2;
+    max-width:1380px;
+    margin:0 auto;
+    border-radius:11px;
+}
+
+a.image111 {
+    font-size: 12px;
+    text-decoration: none;
+    background: #40C84F;
+    padding: 4px 26px;
+    border-radius: 16px;
+    color: #fff;
+}
+
+.planeText1 p {
+    /* margin: 0; */
+    color: #40C84F;
+    font-weight: 500;
+}
+
+.planeText p {
+    margin: 0;
+}
+
+.planeText1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textdata-all {
+    background: #fff;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+}
+
+/*--------Destination-Section-Completed--------*/
+
+
+/*-----Footer-section-----*/
+.footer-bg {
+    background-color: #c9dbf2;
+  }
+  .service-color {
+    color: rgba(51, 51, 51, 0.5);
+  }
+  
+  .newsletter-font {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  
+  .footer-container {
+    width: 95%;
+  }
+  .service-font {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .take-asfartrip-font {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .footer-second {
+    height: 265px;
+    /* position: relative; */
+  }
+  .asfartrip-details {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(51, 51, 51, 0.5);
+  }
+  .mobile-one {
+    width: 341px;
+    height: 382px;
+    margin-top: -165px;
+    /* top: 0px; */
+    /* top: -150px; */
+    /* top: 0;
+    right: 0; */
+    /* position: absolute; */
+    /* top: 0%;
+    left: 50; */
+  }
+  .arrow {
+    margin-top: -40px;
+    right: 0;
+  }
+  .newsletter-input {
+    /* width: 129px; */
+    height: 44px;
+  }
+  .custom-input-field {
+    width: 350px;
+    background-color: #fff;
+    border-radius: 7px;
+  }
+  .custom-input {
+    border: none;
+  }
+  .divider {
+    height: 30px;
+    margin: 7px 0px;
+    border-left: 2px solid #9c9c9c;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+  }
+  .newsletter-btn {
+    background-color: #113f6d;
+    width: 129px;
+    height: 44px;
+    border: none;
+    border-radius: 7px;
+    margin: 5px 5px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  
+  .asfartrip-logo {
+    width: 187px;
+    height: 73px;
+  }
+  
+  .service-heading-font {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .flight-font {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .top-flight-font {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  
+  .discounts-font-one {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .discounts-font-two {
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+  }
+  /* .iata-logo {
+    width: 54px;
+    height: 33px;
+  } */
+  .iata-font {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .copyright-font {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .developed-font {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+  }
+  
+  :root {
+    --checkbox-color: hsl(127, 55%, 52%);
+  }
+  
+  @-webkit-keyframes scale-in {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  .form-check-input[type="checkbox"] {
+    --checkbox-width: 1.125rem;
+    --checkbox-bg: white;
+    --checkbox-radius: 4px;
+    --checkbox-border-color: var(--secondary-color);
+    /* --checkbox-hover-border-color: var(--secondary-color-darker);
+    --checkbox-checked-bg: var(--checkbox-color);
+    --checkbox-disabled-bg: var(--secondary-color-lighter);
+    --checkbox-disabled-checked-bg: var(--secondary-color-darker); */
+    width: var(--checkbox-width);
+    height: var(--checkbox-width);
+    position: relative;
+    background: var(--checkbox-checked-bg);
+    border: none;
+    border-radius: var(--checkbox-radius);
+    transition: 0.3s;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+    cursor: pointer;
+  }
+  .form-check-label {
+    margin-left: 0.625rem;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .form-check-input[type="checkbox"] ~ .form-check-label {
+    margin-left: 0.625rem;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 500;
+  }
+  .form-check-input[type="checkbox"]::before {
+    position: absolute;
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18px' height='18px' fill='none' stroke-width='2px' stroke='white' stroke-linecap='round' viewBox='0 0 21 21'%3E%3Cpolyline points='5 10.75 8.5 14.25 16 6'%3E%3C/polyline%3E%3C/svg%3E");
+    transform: scale(0);
+  }
+  .form-check-input[type="checkbox"]::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: var(--checkbox-bg);
+    border-radius: inherit;
+    box-shadow: inset 0 0 0 1px var(--checkbox-border-color);
+    transition: 0.2s;
+  }
+  
+  .form-check-input[type="checkbox"]:checked::before {
+    -webkit-animation: scale-in 0.1s 0.2s linear forwards;
+    animation: scale-in 0.1s 0.2s linear forwards;
+  }
+  .form-check-input[type="checkbox"]:checked::after {
+    transform: scale(0);
+  }
+/*------Responsive Section-------*/
+
+@media screen and (max-width:1299px){
+    .Popular-tour-section .yo-slide {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:1199px) {
+    #main-footer .scanner .tp-scan img {
+        max-width: 100px;
+    }
+    #main-footer .scanner .tp-scan img:last-child {
+        padding-right: 15px;
+    }
+    .col-heading {
+        font-size: 21.94px;
+        line-height: 26.74px;
+    }
+    .col-subheading {
+        font-size: 12.86px;
+        line-height: 16.65px;
+        margin-bottom:8px;
+    }
+
+    .main-heading {
+        font-size: 38.06px;
+        line-height: 45.64px;
+    }
+    .hol-desination-text .max-width {
+        max-width: 90%;
+    }
+    .ftr-sec-width {
+        max-width: 100%;
+    }
+    .slick-next:before, .slick-prev:before {
+        font-size: 40px !important;
+    }
+}
+
+
+@media Screen and (max-width:1024px){
+    .travelling-banner {
+        height: auto;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        padding: 9px;
+        background-position: center;
+    }
+    .travelling-heading {
+        text-align: center;
+        padding: unset;
+    }
+    .travelling-suitcase{
+     text-align: center;
+    }
+    .main-heading {
+        max-width: 60%;
+    }
+    .head-before-after::before {
+        left: 20px;
+    }
+    .head-before-after::after {
+        right: 20px;
+    }
+    .subhead-before-after::before {
+        height: 2px;
+        left: 100px;
+    }
+    .subhead-before-after::after {
+        height: 2px;
+        right: 90px;
+        top: -20px;
+    }
+}
+
+@media screen and (max-width:991px){
+    .travel-covid{
+        padding: 30px 20px;
+    }
+    .travelling-suitcase {
+        padding-top:0;
+        width:100%;
+    }
+    .travelling-heading {
+        width: 100%;
+    }
+    .travelling-heading {
+        max-width: 80%;
+    }
+    .main-heading {
+        font-size: 34.06px;
+        line-height: 41.64px;
+    }
+    .main-heading {
+        max-width: 65%;
+    }
+    .col-subheading {
+        font-size: 14.86px;
+        line-height: 18.65px;
+    }
+    .footer-bg .center-mobile h5 {
+        text-align: center;
+    }
+    .footer-bg h5.newsletter-font {
+        text-align: left;
+        float: left;
+    }
+    .custom-input-field{
+        width:100%;
+    }
+    .flight-bg{
+        min-height:inherit !important;
+    }
+    .home-page-banner .top-banner {
+        bottom: 30px;
+    }
+    #Flights .form-row {
+        max-width: 100%;
+        flex: 100%;
+        padding-right: 0;
+    }
+    #Flights .form-btn {
+        flex: 100%;
+        max-width: 100%;
+        margin: 15px 10px;
+        padding: 20px 0;
+    }
+    .flying-input div {
+        padding: inherit;
+        margin: 2px auto;
+        max-width: 100%;
+        flex: 100%;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    nav.navbar {
+        padding: 15px 0;
+    }
+    button.navbar-toggler {
+        padding: 0;
+    }
+    .travelling-banner {
+        background-size: cover;
+        padding: 9px;
+        background-position: center;
+    }
+    .travelling-heading {
+        padding: unset;
+    }
+    .travelling-suitcase{
+     text-align: center;
+    }
+    .text1 {
+        min-height: inherit;
+    }
+    .hol-destination div.row {
+        margin: 0;
+    }
+    .cardSection .images{
+        height:200px;
+    }
+    .main-heading {
+        max-width: 90%;
+    }
+    .head-before-after::before,.subhead-before-after::before,
+    .head-before-after::after,.subhead-before-after::after{
+        display:none;
+    }
+    
+    .flying-input div {
+        max-width: 100%;
+        flex: 100%;
+    }
+    .home-page-banner .top-banner {
+        margin-top: 0;
+    }
+    .ftr-scanner{
+        justify-content:flex-start !important;
+    }
+    .home-page-banner{
+        height: auto;
+    }
+    h5.discounts-font-one,.discounts-font-two {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    header .admin-user, .header-rt {
+        width: 100%;
+        justify-content: center !important;
+        padding: 10px 0;
+    }
+    header .admin-user {
+        border-bottom: 1px solid #333333;
+        padding-right: 0;
+        border-right:none;
+        margin-bottom: 15px;
+    }
+    header span.hdr-retrieve {
+        text-align: center;
+        width: 100%;
+    }
+    .footer-bg h5.newsletter-font {
+        text-align: center;
+        float: none;
+    }
+    .home-page-banner .top-banner {
+        bottom: 10px;
+    }
+}
+
+
+/*------Footer-styles---------*/
+@media only screen and (max-width: 40em) {
+    .footer-top {
+      padding: 860px 20px;
+    }
+    .mobile-one img {
+      width: 240px;
+      height: 282px;
+      margin-top: 40px;
+    }
+    .arrow {
+      margin-top: -40px;
+      left: 30%;
+      display: none;
+    }
+    .ilogo {
+      width: 30px;
+    }
+    .custom-input-field {
+      width: 270px;
+    }
+    .newsletter-btn {
+      background-color: #113f6d;
+      width: 89px;
+      height: 38px;
+    }
+    .btn-font {
+      font-size: 14px;
+    }
+    .payment {
+      display: flex;
+      flex-direction: column;
+    }
+    .payment img {
+      width: 250px;
+    }
+    .flight-font h6,
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+    }
+    /* .top-flight-font {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 10px;
+      line-height: 20px;
+    } */
+    /* .service-font-all h6 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      text-transform: uppercase;
+    }
+    .flight-font h6,
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+    } */
+  
+    .newsletter-font h5 {
+      font-size: 15px;
+    }
+    .center-mobile {
+      text-align: center;
+    }
+    .developed-font {
+      text-align: left;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 640px) {
+    .arrow {
+      margin-top: 200px;
+      margin-left: -310px;
+      display: none;
+    }
+    .footer-top {
+      padding: 740px 20px;
+    }
+    .newsletter-font h5 {
+      font-size: 14px;
+    }
+  }
+  @media only screen and (min-width: 641px) and (max-width: 767px) {
+    .footer-top {
+      padding: 660px 20px;
+    }
+    /* .mobile-one img {
+      width: 240px;
+      height: 322px;
+      margin-top: 60px;
+    } */
+  }
+  
+  /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    .footer-top {
+      /* padding: 670px 20px; */
+    }
+    .mobile-one img {
+      width: 260px;
+      height: 302px;
+      margin-top: 40px;
+    }
+    .custom-input-field {
+      width: 270px;
+    }
+    .newsletter-btn {
+      background-color: #113f6d;
+      width: 99px;
+      height: 38px;
+    }
+    .form-check-label {
+      font-size: 12px;
+    }
+    .arrow {
+      margin-top: 200px;
+      margin-left: -310px;
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .footer-top {
+      padding: 500px 20px;
+    }
+    .asfartrip-logo {
+      width: 112px;
+      height: 40px;
+    }
+    .asfartrip-details {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 19px;
+      color: rgba(51, 51, 51, 0.5);
+    }
+    .service-heading-font {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 19px;
+    }
+    .service-font {
+      font-size: 10px;
+      line-height: 12px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1134px) {
+    .footer-top {
+      /* padding: 400px 20px; */
+    }
+    .mobile-one img {
+      width: 230px;
+      height: 302px;
+      margin-top: 80px;
+      padding-right: 25px;
+    }
+    .custom-input-field {
+      width: 270px;
+    }
+    .newsletter-btn {
+      background-color: #113f6d;
+      width: 99px;
+      height: 38px;
+    }
+    .form-check-label {
+      font-size: 10px;
+    }
+    .arrow {
+      margin-top: 200px;
+      margin-left: -310px;
+      display: none;
+    }
+    .barcode {
+      width: 80px;
+    }
+    .app-store {
+      width: 80px;
+    }
+    .take-asfartrip-font {
+      font-size: 1rem;
+    }
+    .service-heading-font {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 19px;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) and (max-width: 1600px) {
+    .mobile-one img {
+      width: 341px;
+      height: 382px;
+      padding-right: 40px;
+    }
+    .footer-top {
+      /* padding: 650px 20px; */
+      padding: 200px 0px;
+    }
+    .take-asfartrip-font {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 26px;
+    }
+    .form-check-label {
+      margin-left: 0.625rem;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+    }
+    .barcode {
+      width: 117px;
+      height: 117px;
+    }
+    .app-store {
+      width: 135px;
+      height: 40px;
+    }
+    /* .mobile-one img {
+      width: 240px;
+      height: 322px;
+      margin-top: 40px;
+    } */
+  }
+  
+  @media only screen and (min-width: 1024px) and (max-width: 1308px) {
+    .footer-top {
+      /* padding: 400px 20px; */
+    }
+    .mobile-one img {
+      width: 230px;
+      height: 302px;
+      margin-top: 80px;
+      padding-right: 25px;
+    }
+    .custom-input-field {
+      width: 270px;
+    }
+    .newsletter-btn {
+      background-color: #113f6d;
+      width: 99px;
+      height: 38px;
+    }
+    .form-check-label {
+      font-size: 10px;
+    }
+    .arrow {
+      margin-top: 200px;
+      margin-left: -310px;
+      display: none;
+    }
+    .barcode {
+      width: 80px;
+    }
+    .app-store {
+      width: 80px;
+    }
+    .take-asfartrip-font {
+      font-size: 1rem;
+    }
+    .service-heading-font {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 14px;
+      line-height: 14px;
+    }
+    .service-font {
+      font-size: 13px;
+      line-height: 12px;
+    }
+  }
+  
+ 
+  
